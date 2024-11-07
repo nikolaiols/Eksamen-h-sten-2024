@@ -15,9 +15,38 @@ body {
   header{
     grid-area: "header";
   }
+
+  header ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+  }
+
   main{
     grid-area: "main";
   }
+  
   footer{
     grid-area: "footer";
+  }
+
+  footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    list-style: none;
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+  }
+
+  .mainlogo{
+    max-width: 150px;
   }
