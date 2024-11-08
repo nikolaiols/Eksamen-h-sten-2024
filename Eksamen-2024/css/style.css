@@ -31,7 +31,14 @@ body {
   main{
     grid-area: "main";
   }
-  
+
+  .category-card{
+    display: flex;
+    flex-direction: column;
+    padding: 10rem;
+    border: #000;
+  }
+
   footer{
     grid-area: "footer";
   }
