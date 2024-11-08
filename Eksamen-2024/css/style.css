@@ -15,6 +15,9 @@ body {
   header{
     grid-area: "header";
   }
+  header form input{
+    padding: 0.5rem;
+  }
 
   header ul{
     display: flex;
@@ -30,6 +33,23 @@ body {
 
   main{
     grid-area: "main";
+  }
+  #banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: #cecece;
+    max-width: 350px;
+    padding: 1rem;
+    margin: 10px;
+    a{
+        padding: 1rem;
+        background-color: #1b1a1a;
+        color: #fff;
+        list-style: none;
+        text-decoration: none;
+        
+    }
   }
 
   /*kategorikort*/
