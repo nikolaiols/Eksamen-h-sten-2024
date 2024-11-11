@@ -119,7 +119,14 @@ body {
   footer{
     grid-area: "footer";
     padding-top: 15px;
+    section p{
+      width: 400px;
+    }
   }
+  
+  /*section :nth-child(2){
+    width: 400px;
+  }*/
 
   footer ul{
     display: flex;
