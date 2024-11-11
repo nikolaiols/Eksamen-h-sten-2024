@@ -51,12 +51,40 @@ body {
         
     }
   }
+  /*populære-produkter*/
+  #popprodukter button{
+    padding: 1rem;
+  }
+  
+  /*styrer også annmeldelser*/
+  .column-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 1rem;
+  }
+
+  .products{
+    max-width: 350px;
+    min-width: 200px;
+    width: 100%; 
+    box-shadow: 13px 9px 20px 0px #bfbebe; 
+    border-radius: 4px; 
+    padding: 1rem;
+    img{
+      max-width: 100%;
+      width: 300px;
+    }
+  }
+
 
   /*kategorikort*/
   #popkategorier{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    flex-grow: 1;
     gap: 1rem;
   }
   .category-card{
@@ -70,6 +98,23 @@ body {
         text-align: center;
     }
   }
+
+    /*ANNMELDELSER*/
+    .review{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      width: 300px;
+      padding: 5px;
+      border: 0.5px solid #d2d2d2;
+      border-radius: 5%;
+
+      img{
+        width: 150px;
+        border-radius: 15%;
+      }
+    }
 
   footer{
     grid-area: "footer";
