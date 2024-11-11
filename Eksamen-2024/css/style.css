@@ -13,7 +13,7 @@ body {
                             "footer";
   }
   header{
-    grid-area: "header";
+    grid-area: header;
   }
   header form input{
     padding: 0.5rem;
@@ -32,7 +32,7 @@ body {
   }
 
   main{
-    grid-area: "main";
+    grid-area: main;
   }
   #banner{
     display: flex;
@@ -117,8 +117,9 @@ body {
     }
 
   footer{
-    grid-area: "footer";
+    grid-area: footer;
     padding-top: 15px;
+    max-width: 100%;
     section p{
       width: 400px;
     }
