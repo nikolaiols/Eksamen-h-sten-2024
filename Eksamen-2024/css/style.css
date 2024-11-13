@@ -15,6 +15,16 @@ body {
   header{
     grid-area: header;
   }
+  /*SØKEFELT*/
+  header form label{
+    visibility: hidden;
+    position: absolute;
+  }
+  
+  header form{
+    position: relative;
+  }
+  
   header form input{
     padding: 0.5rem;
   }
@@ -22,9 +32,9 @@ body {
   header ul{
     display: flex;
     flex-direction: column;
+    padding: 0;
     gap: 0.5rem;
     list-style: none;
-    padding: 0;
     a{
         text-decoration: none;
         color: #000;
@@ -179,13 +189,14 @@ body {
    
     nav{
       display: flex;
-      gap: 20px;
+      justify-content: space-between;
+      gap: 1rem;
     }
 
     nav ul{
       flex-direction: row;
-      justify-content: space-between;
-      gap: 3rem;
+      justify-content: space-around;
+      gap: 2.6rem;
     }
     /*popprod*/
     .column-container{
