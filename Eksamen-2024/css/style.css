@@ -149,6 +149,9 @@ body {
   /*DESKTOP*/
   @media only screen and (min-width:800px){
     #grid-container{
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
       grid-template-areas: "header" "header" "header"
                             "main" "main" "main"
                             "footer" "footer" "footer";
