@@ -71,6 +71,8 @@ body {
     box-shadow: 13px 9px 20px 0px #bfbebe; 
     border-radius: 4px; 
     padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     img{
       max-width: 100%;
       width: 300px;
@@ -94,11 +96,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding: 0;
     h3{
+        z-index: 100;
+        position: absolute;
         text-align: center;
-        color: #000;
+        color: #000000;
+        font-size: 65px;
+        background-color: rgb(253, 252, 252, 75%);
+        border-radius: 3%;
+    }
+    img{
+      max-width: 100%;
+      position: relative;
     }
   }
     /*ANNMELDELSER*/
