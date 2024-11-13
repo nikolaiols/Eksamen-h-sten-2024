@@ -89,6 +89,11 @@ body {
     margin: 10px;
     gap: 1rem;
   }
+  #popkategorier{
+    h2, p{
+    width: 100%;
+    }
+  }
   .category-card{
     max-width: 400px;
     padding: 10rem;
@@ -108,6 +113,7 @@ body {
     }
     img{
       max-width: 100%;
+      height: 100%; /*SPØR*/
       position: relative;
     }
   }
@@ -143,10 +149,6 @@ body {
       width: 400px;
     }
   }
-  
-  /*section :nth-child(2){
-    width: 400px;
-  }*/
 
   footer ul{
     display: flex;
@@ -186,7 +188,7 @@ body {
       justify-content: space-between;
       gap: 3rem;
     }
-    /*hovedel*/
+    /*popprod*/
     .column-container{
       display: flex;
       flex-direction: row;
@@ -194,6 +196,26 @@ body {
     }
     .products{
       width: 350px;
+    }
+    /*popcat*/
+    #popkategorier{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin: 0;
+      gap: 0;
+    }
+    .category-card{
+      width: 33%;
+      max-width: 386px;
+    }
+    #big-category{
+      width: 72.5%;
+      max-width: 846px;
+    }
+    #small-category{
+      width: 26.5%;
+      max-width: 300px;
     }
 
     /*footer*/
