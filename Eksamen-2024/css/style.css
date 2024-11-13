@@ -107,7 +107,7 @@ body {
         position: absolute;
         text-align: center;
         color: #000000;
-        font-size: 65px;
+        font-size: 3rem;
         background-color: rgb(253, 252, 252, 75%);
         border-radius: 3%;
     }
@@ -178,19 +178,16 @@ body {
     }
    
     nav{
-      display: flex;
       gap: 20px;
     }
 
     nav ul{
-      display: flex;
       flex-direction: row;
       justify-content: space-between;
       gap: 3rem;
     }
     /*popprod*/
     .column-container{
-      display: flex;
       flex-direction: row;
       flex-wrap: wrap;
     }
@@ -199,7 +196,6 @@ body {
     }
     /*popcat*/
     #popkategorier{
-      display: flex;
       flex-wrap: wrap;
       flex-direction: row;
       margin: 0;
@@ -218,9 +214,19 @@ body {
       max-width: 300px;
     }
 
+    /*ANNMLD*/
+    .annmeldelser{
+      flex-direction: row;
+      h3{
+        width: 100%;
+      }
+    }
+    .review{
+      max-width: 289px;
+    }
+
     /*footer*/
     footer{
-      display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
     }
@@ -234,12 +240,10 @@ body {
       padding: 0;
     }
     #snarveier nav ul{
-      display: flex;
       flex-direction: column;
       gap: 7.5px;
     }
     #some ul{
-      display: flex;
       flex-direction: row;
       gap: 20px;
     }
