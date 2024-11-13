@@ -144,3 +144,50 @@ body {
   .mainlogo{
     max-width: 150px;
   }
+
+
+  /*DESKTOP*/
+  @media only screen and (min-width:800px){
+    #grid-container{
+      grid-template-areas: "header" "header" "header"
+                            "main" "main" "main"
+                            "footer" "footer" "footer";
+    }
+   
+    nav{
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 3rem;
+    }
+
+    footer{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    #footer-logo{
+      min-width: 100%;
+      p{
+        width: 100%;
+      }
+    }
+    footer section ul{
+      padding: 0;
+    }
+    #snarveier nav ul{
+      display: flex;
+      flex-direction: column;
+      gap: 7.5px;
+    }
+    #some ul{
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+  }
