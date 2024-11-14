@@ -37,25 +37,17 @@
             <h3>1. Handlevogn</h3>
 
             <article>
-                <picture>
-                    <source media="(max-width:400px)" srcset="img/nike-dunks-640.jpg">
-                    <source media="(max-width:800px)" srcset="img/nike-dunks-1920.jpg">
-                    <img src="img/nike-dunks-1280.jpg" alt="Nike-">
-                </picture>
+                <img src="img/nike-dunks-1280.jpg" alt="Nike-">
             </article>
 
             <article>
-                <picture>
-                    <source media="(max-width:400px)" srcset="img/nike-dunks-640.jpg">
-                    <source media="(max-width:800px)" srcset="img/nike-dunks-1920.jpg">
-                    <img src="img/nike-dunks-1280.jpg" alt="Nike-">
-                </picture>
+                <img src="img/nike-dunks-1280.jpg" alt="Nike-">
             </article>
             </section>
 
             <section id="personopplysninger">
                 <h3>2. Leveringsadresse</h3>
-                <form>
+                <form class="column-layout">
                     <label>
                         Fornavn: 
                         <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Fornavn*"> 
@@ -86,7 +78,7 @@
             </section>
             <section id="levering">
                 <h3>3. Levering</h3>
-                <form>
+                <form class="column-layout">
                     <fieldset>
                         <!-- Brukes til å gruppere relaterte alternativer, her for valg av kjønn -->
                         <legend>Levering</legend> <!-- Tittel for radioknappene -->
@@ -113,7 +105,7 @@
             </section>
             <section id="betaling">
                 <h3>4. Betaling</h3>
-                <form>
+                <form class="column-layout">
                     <label>
                         Kortnummer: 
                         <input type="number" required placeholder="453235 **** 4567"> 
@@ -135,11 +127,11 @@
                         retten til å heve eller avslutte avtaleforholdet dersom det foreligger
                         uriktige eller ufullstendige opplysninger.</p>
                     
-                        <label>
+                        <label class="godta">
                             Ja, jeg godtar vilkårene: 
                             <input type="checkbox" required> 
                         </label>
-                        <label>
+                        <label class="godta">
                             Ja, jeg ønsker å motta tekstmeldinger med tilbud og nyheter!: 
                             <input type="checkbox" required> 
                         </label>
