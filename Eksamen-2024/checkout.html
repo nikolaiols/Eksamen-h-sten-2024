@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- linker til font awsome sine ikoner osv LA IKON MAPPA VÆRE-->
+    <link href="ikoner/css/fontawesome.css" rel="stylesheet">
+    <link href="ikoner/css/brands.css" rel="stylesheet">
+    <link href="ikoner/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="grid-container">
+        <header>
+            <nav>
+                <form> <!--gjør om label til hidden, så skjermoppleser kan lese det-->
+                    <label for="search">Søk</label>
+                    <input type="search" placeholder="Søk her" id="search">
+                    <input type="submit" value="Søk">
+                </form>
+                <ul>
+                    <li><a href="index.html">Hjem</a></li>
+                    <li><a href="#popprodukter">Produkter</a></li> <!--husk å legg id på seksjon med populære produkter-->
+                    <li><a href="index.html"><img class="mainlogo" src="img/logo.png" alt="nettsted logo"></a></li>
+                    <li><a href="#popkategorier">kategorier</a></li> <!--husk å legg id på seksjon med populære kategorier-->
+                    <li><a href="#contact">kontakt oss</a></li>
+                    <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
+                    <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                    <li><a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="handlevogn">
+            <h1>Kasse</h1>
+            <h3>1. Handlevogn</h3>
+
+            <article>
+                <picture>
+                    <source media="(max-width:400px)" srcset="img/nike-dunks-640.jpg">
+                    <source media="(max-width:800px)" srcset="img/nike-dunks-1920.jpg">
+                    <img src="img/nike-dunks-1280.jpg" alt="Nike-">
+                </picture>
+            </article>
+
+            <article>
+                <picture>
+                    <source media="(max-width:400px)" srcset="img/nike-dunks-640.jpg">
+                    <source media="(max-width:800px)" srcset="img/nike-dunks-1920.jpg">
+                    <img src="img/nike-dunks-1280.jpg" alt="Nike-">
+                </picture>
+            </article>
+            </section>
+
+            <section id="personopplysninger">
+                <h3>2. Leveringsadresse</h3>
+                <form>
+                    <label>
+                        Fornavn: 
+                        <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Fornavn*"> 
+                        <!-- Tekstfelt for navn, med et mønster som godtar bokstaver og mellomrom (minimum 2 tegn) og som er påkrevd -->
+                    </label>
+                    <label>
+                        Etternavn: 
+                        <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Etternavn*"> 
+                        <!-- Tekstfelt for navn, med et mønster som godtar bokstaver og mellomrom (minimum 2 tegn) og som er påkrevd -->
+                    </label>
+                    <label>
+                        Gateadresse: 
+                        <input type="text" required placeholder="Gateadresse*"> 
+                    </label>
+                    <label>
+                        Postnummer: 
+                        <input type="number" required placeholder="Postnummer*"> 
+                    </label>
+                    <label>
+                        poststed: 
+                        <input type="text" required placeholder="Poststed*"> 
+                    </label>
+                    
+                    <input type="submit" value="Lagre"> 
+                    <!-- Send-knapp som sender skjemaet når det er korrekt utfylt -->
+                     <a href="#">Avbryt</a>
+                </form>
+            </section>
+            <section id="levering">
+                <h3>3. Levering</h3>
+                <form>
+                    <fieldset>
+                        <!-- Brukes til å gruppere relaterte alternativer, her for valg av kjønn -->
+                        <legend>Levering</legend> <!-- Tittel for radioknappene -->
+                        
+                        <label>
+                            Express Hjemlevering
+                            <input type="radio"  name="leveranse" required> 
+                            <!-- Radioknapp for mann, med name-attributt som grupperer den med de andre kjønn-valgene -->
+                        </label>
+                        
+                        <label>
+                            Express Pakke til utleveringssted
+                            <input type="radio" name="leveranse" required> 
+                            <!-- Radioknapp for kvinne -->
+                        </label>
+                        
+                        <label>
+                            Standar Hjemlevering
+                            <input type="radio" name="leveranse" required> 
+                            <!-- Radioknapp for annet -->
+                        </label>
+                    </fieldset>
+                </form>
+            </section>
+            <section id="betaling">
+                <h3>4. Betaling</h3>
+                <form>
+                    <label>
+                        Kortnummer: 
+                        <input type="number" required placeholder="453235 **** 4567"> 
+                    </label>
+                    <label>
+                        Utløpsdato: 
+                        <input type="number" required placeholder="mm/dd/yyyy"> 
+                    </label>
+                    <label>
+                        CVC/CVV: 
+                        <input type="number" required placeholder="CVC/CVV"> 
+                    </label>
+
+                    <label>Å betale: 2299kr</label>
+                    <input type="submit" value="Fullfør kjøp"> 
+                    <!-- Send-knapp som sender skjemaet når det er korrekt utfylt -->
+                     <p>Du bekrefter herved at opplysningene og dokumentene du har
+                        oppgitt er korrekte og fullstendige. Leverandøren forbeholder seg
+                        retten til å heve eller avslutte avtaleforholdet dersom det foreligger
+                        uriktige eller ufullstendige opplysninger.</p>
+                    
+                        <label>
+                            Ja, jeg godtar vilkårene: 
+                            <input type="checkbox" required> 
+                        </label>
+                        <label>
+                            Ja, jeg ønsker å motta tekstmeldinger med tilbud og nyheter!: 
+                            <input type="checkbox" required> 
+                        </label>
+                </form>
+            </section>
+
+        </main>
+
+        <footer>
+            <section id="footer-logo">
+                <a href="index.html"><img class="mainlogo" src="img/logo.png" alt="nettsted logo"></a>
+                <p>Quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+            </section>
+            <section id="contact">
+                <h4>KONTAKT</h4>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> Adresse: B R A veien 22, 1757 HALDEN</li>
+                    <li><i class="fa-solid fa-phone"></i> Telefon: 96 60 80 00</li>
+                    <li><i class="fa-solid fa-envelope"></i> E-post: halden@hiof.no</li>
+                    <li><i class="fa-solid fa-clock"></i> Åpningstider: 08 - 16</li>
+                </ul>
+            </section>
+            <section id="snarveier">
+                <h4>SNARVEIER</h4>
+                <nav>
+                    <ul>
+                        <li><a href="#popprodukter">Produkter</a></li>
+                        <li><a href="#popkategorier">Katergorier</a></li>
+                        <li><a href="#contact">Kontakt oss</a></li>
+                    </ul>
+                </nav>
+            </section>   
+            <section id="some">
+                <h4>Sosiale medier</h4>
+                <ul>
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://www.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest"></i></a></li>
+                </ul>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>

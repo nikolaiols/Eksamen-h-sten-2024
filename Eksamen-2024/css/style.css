@@ -87,6 +87,11 @@ body {
       max-width: 100%;
       width: 300px;
     }
+    a{
+      color: #000;
+      list-style: none;
+      text-decoration: none;
+    }
   }
 
 
@@ -148,6 +153,36 @@ body {
       img{
         width: 150px;
         border-radius: 15%;
+      }
+    }
+
+    /*product.html*/
+    .breadcrumb{
+      display: flex;
+      list-style: none;
+      padding: 0;
+      gap: 1rem;
+      a{text-decoration: none;
+      color: #000;
+      }
+    }
+
+    .product-container{
+      display: flex;
+      flex-direction: column;
+      width: 650px;
+      max-width: 800px;
+      img{
+        width: 100%;
+      }
+    }
+    aside{
+      display: flex;
+      flex-direction: column;
+      width: 650px;
+      max-width: 800px;
+      img{
+        width: 100%;
       }
     }
 
