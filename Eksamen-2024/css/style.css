@@ -120,7 +120,7 @@ body {
         text-align: center;
         color: #000000;
         font-size: 3rem;
-        background-color: rgb(253, 252, 252, 75%);
+        background-color: rgb(253, 252, 252, 80%);
         border-radius: 3%;
     }
   }
@@ -141,6 +141,7 @@ body {
     background-image: url("../img/pensko.jpg");
     background-size: cover;
     background-repeat: round;
+    filter: grayscale(30%);
   }
   #cat4{
     background-image: url("../img/boots-category.jpg");
@@ -151,6 +152,7 @@ body {
     background-image: url("../img/designer-category.jpg");
     background-size: cover;
     background-repeat: round;
+    filter: grayscale(50%);
   }
     /*ANNMELDELSER*/
     .annmeldelser{
