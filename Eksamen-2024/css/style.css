@@ -355,6 +355,7 @@ body {
     }
     .review{
       max-width: 289px;
+      min-width: 200px;
     }
 
     /*PRODUCT.HTML*/
