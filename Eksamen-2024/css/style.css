@@ -344,11 +344,14 @@ body {
 
 
     /*ANNMLD*/
+    .ann-overskrift{
+      width: 100%;
+    }
     .annmeldelser{
+     width: 700px;
+     overflow: scroll;
+     flex-wrap: nowrap;
       flex-direction: row;
-      h3{
-        width: 100%;
-      }
     }
     .review{
       max-width: 289px;
