@@ -116,9 +116,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0;
     h3{
-        z-index: 100;
+        /*z-index: 100;*/
         position: absolute;
         text-align: center;
         color: #000000;
@@ -126,11 +125,28 @@ body {
         background-color: rgb(253, 252, 252, 75%);
         border-radius: 3%;
     }
-    img{
-      max-width: 100%;
-      height: 100%; /*SPØR*/
-      position: relative;
-    }
+  }
+  #cat1{
+    background-image: url("../img/sneakers-category.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+  }
+  #cat2{
+    background-image: url("../img/løpesko-category.jpg");
+    background-size: cover;
+  }
+  #cat3{
+    background-image: url("../img/pensko.jpg");
+    background-size: cover;
+  }
+  #cat4{
+    background-image: url("../img/boots-category.jpg");
+    background-size: cover;
+  }
+  #cat5{
+    background-image: url("../img/designer-category.jpg");
+    background-size: cover;
   }
     /*ANNMELDELSER*/
     .annmeldelser{
