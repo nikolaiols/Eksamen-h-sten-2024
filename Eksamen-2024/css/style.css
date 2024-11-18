@@ -108,7 +108,7 @@ body {
     }
   }
   .category-card{
-    max-width: 400px;
+    max-width: 100%;
     padding: 10rem;
     border: 2px solid #000;
     display: flex;
@@ -169,7 +169,7 @@ body {
       }
     }
 
-    /*product.html*/
+    /*PRODUCT.HTML*/
     .breadcrumb{
       display: flex;
       list-style: none;
@@ -184,11 +184,16 @@ body {
       display: flex;
       flex-direction: column;
       width: 100%;
-      max-width: 100%;
+      max-width: 700px;
       img{
         width: 100%;
         max-width: 100%;
       }
+    }
+    .produktinfo{
+      width: 100%;
+      max-width: 440px;
+
     }
     aside{
       display: flex;
@@ -292,25 +297,50 @@ body {
     .products{
       width: 350px;
     }
-    /*popcat*/
+    /*POPULÆREKATEGORIER*/
     #popkategorier{
-      flex-wrap: wrap;
-      flex-direction: row;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto auto;
       margin: 0;
       gap: 0;
     }
-    .category-card{
-      width: 33%;
+    #cat1{
       max-width: 386px;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 2;
     }
-    #big-category{
-      width: 72.5%;
-      max-width: 846px;
+    #cat2{
+      max-width: 386px;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 2;
     }
-    #small-category{
-      width: 26.5%;
+    #cat3{
+      max-width: 386px;
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 1;
+      grid-row-end: 2;
+    }
+    #cat4{
+      max-width: 864px;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 3;
+    }
+    #cat5{
       max-width: 300px;
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end: 3;
     }
+
 
     /*ANNMLD*/
     .annmeldelser{
@@ -323,6 +353,31 @@ body {
       max-width: 289px;
     }
 
+    /*PRODUCT.HTML*/
+    .produkt-sammendrag{
+      display: flex;
+      flex-direction: row;
+    }
+    .product-container{
+      flex-wrap: wrap;
+      max-width: 100%;
+     }
+    #bigpic{
+      width: 100%;
+    }
+    #bigpic img{
+    width: 100%;
+    max-width: 700px;
+   }
+   .product-container{
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+   }
+   .product-container article img{
+    width: 160px;
+   }
+    
     /*footer*/
     footer{
       flex-wrap: wrap;
