@@ -203,10 +203,37 @@ body {
       }
     }
     .produktinfo{
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
       width: 100%;
       max-width: 440px;
-
+      padding-left: 0.5rem;
+      a{
+        list-style: none;
+        text-decoration: none;
+        background-color: #000;
+        color: #fff;
+        padding: 1rem;
+        width: 15rem;
+      }
     }
+    .produktinfo form select{
+      padding: 1rem;
+      background-color: #efefef;
+      width: 20rem;
+    }
+    .produktinfo section{
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      i{
+        border: 1px solid #cecece;
+        padding: 1rem;
+        text-align: center;
+      }
+    }
+
     aside{
       display: flex;
       flex-direction: column;
