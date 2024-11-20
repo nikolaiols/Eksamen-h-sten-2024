@@ -166,8 +166,8 @@ body {
     }
     .review{
       display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
+      /*flex-direction: column;*/
+      justify-content: flex-start;
       flex-wrap: wrap;
       width: 300px;
       min-width: 200px;
