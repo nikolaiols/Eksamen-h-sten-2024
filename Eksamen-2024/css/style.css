@@ -160,13 +160,13 @@ body {
       flex-wrap: nowrap;
       flex-direction: row;
       overflow: scroll;
-      width: 400px;
+      width: 100%;
+      max-width: 800px;
       gap: 1rem;
       padding-top: 1rem;
     }
     .review{
       display: flex;
-      /*flex-direction: column;*/
       justify-content: flex-start;
       flex-wrap: wrap;
       width: 300px;
@@ -393,7 +393,8 @@ body {
       width: 100%;
     }
     .annmeldelser{
-     width: 700px;
+     width: 100%;
+     max-width: 1200px;
      overflow: scroll;
      flex-wrap: nowrap;
       flex-direction: row;
