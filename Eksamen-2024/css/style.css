@@ -147,7 +147,6 @@ body {
     background-image: url("../img/pensko.jpg");
     background-size: cover;
     background-repeat: round;
-    filter: grayscale(30%);
   }
   #cat4{
     background-image: url("../img/boots-category.jpg");
@@ -158,7 +157,6 @@ body {
     background-image: url("../img/designer-category.jpg");
     background-size: cover;
     background-repeat: round;
-    filter: grayscale(50%);
   }
     /*ANNMELDELSER*/
     .annmeldelser{
