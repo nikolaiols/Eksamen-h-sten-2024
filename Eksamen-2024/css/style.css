@@ -233,7 +233,13 @@ body {
         text-align: center;
       }
     }
-
+    #liknende-produkter{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      
+    }
     aside{
       display: flex;
       flex-direction: column;
