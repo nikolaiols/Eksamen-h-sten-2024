@@ -251,6 +251,7 @@ body {
       flex-wrap: nowrap;
       flex-direction: row;
       overflow: scroll;
+      margin: 1rem;
       width: 100%;
       max-width: 800px;
       img{
