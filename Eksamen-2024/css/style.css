@@ -99,6 +99,11 @@ body {
   /*kategorikort*/
   #popkategorier{
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #category-grid{
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     flex-grow: 1;
@@ -346,8 +351,11 @@ body {
     }
     /*POPULÆREKATEGORIER*/
     #popkategorier{
-      width: 80%;
+      align-items: center;
+    }
+    #category-grid{
       display: grid;
+      justify-content: center;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: auto auto;
       margin: 0;
