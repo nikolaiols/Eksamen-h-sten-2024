@@ -62,6 +62,10 @@ body {
     }
   }
   /*populære-produkter*/
+  #popprodukter{
+    justify-items: center;
+  }
+
   #popprodukter button{
     padding: 1rem;
   }
