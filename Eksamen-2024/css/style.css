@@ -103,9 +103,6 @@ body {
     flex-direction: column;
   }
   #category-grid{
-    /*display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;*/
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto auto;
