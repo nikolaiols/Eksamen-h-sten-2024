@@ -62,10 +62,6 @@ body {
     }
   }
   /*populære-produkter*/
-  #popprodukter{
-    justify-items: center;
-  }
-
   #popprodukter button{
     padding: 1rem;
   }
@@ -359,6 +355,9 @@ body {
       gap: 2.6rem;
     }
     /*popprod*/
+    #popprodukter{
+      justify-items: center;
+    }
     .column-container{
       flex-direction: row;
       flex-wrap: wrap;
