@@ -126,12 +126,12 @@
             <section id="personopplysninger">
                 <h3>2. Leveringsadresse</h3>
                 <form class="column-layout">
-                    <label>
+                    <label class="label-50">
                         Fornavn: 
                         <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Fornavn*"> 
                         <!-- Tekstfelt for navn, med et mønster som godtar bokstaver og mellomrom (minimum 2 tegn) og som er påkrevd -->
                     </label>
-                    <label>
+                    <label class="label-50">
                         Etternavn: 
                         <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Etternavn*"> 
                         <!-- Tekstfelt for navn, med et mønster som godtar bokstaver og mellomrom (minimum 2 tegn) og som er påkrevd -->
@@ -140,18 +140,18 @@
                         Gateadresse: 
                         <input type="text" required placeholder="Gateadresse*"> 
                     </label>
-                    <label>
+                    <label class="label-50">
                         Postnummer: 
                         <input type="number" required placeholder="Postnummer*"> 
                     </label>
-                    <label>
+                    <label class="label-50">
                         poststed: 
                         <input type="text" required placeholder="Poststed*"> 
                     </label>
                     
-                    <input type="submit" value="Lagre"> 
+                    <input type="submit" class="bigbutton" value="Lagre"> 
                     <!-- Send-knapp som sender skjemaet når det er korrekt utfylt -->
-                     <a href="#">Avbryt</a>
+                    <p><a href="#">Avbryt</a></p>
                 </form>
             </section>
             <section id="levering">
@@ -198,7 +198,7 @@
                     </label>
 
                     <label>Å betale: 3899kr</label>
-                    <input type="submit" value="Fullfør kjøp"> 
+                    <input class="bigbutton" type="submit" value="Fullfør kjøp"> 
                     <!-- Send-knapp som sender skjemaet når det er korrekt utfylt -->
                      <p>Du bekrefter herved at opplysningene og dokumentene du har
                         oppgitt er korrekte og fullstendige. Leverandøren forbeholder seg
