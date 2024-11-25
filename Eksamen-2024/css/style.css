@@ -534,6 +534,7 @@ body {
   }
 
   @media only screen and (min-width:801px) and (max-width: 1000px){
+    /*Header*/
     #grid-container{
       max-width: 1200px;
       width: 100%;
@@ -555,6 +556,7 @@ body {
       gap: 2.6rem;
     }
 
+    /*popkategorier*/
     #category-grid{
       display: grid;
       justify-content: center;
