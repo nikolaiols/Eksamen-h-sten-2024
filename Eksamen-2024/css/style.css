@@ -506,6 +506,14 @@ body {
       flex-direction: column;
     }
   }
+  .column-layout fieldset label{
+    border: 1px solid #efefef;
+    flex-direction: row-reverse;
+    align-items: baseline;
+    justify-content: flex-end;
+    gap: 1rem;
+  }
+
   .bigbutton{
     width: 100%;
   }
