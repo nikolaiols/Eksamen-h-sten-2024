@@ -306,6 +306,9 @@ body {
         flex-direction: column;
       }
     }
+    #kontaktinfo{
+      margin-top: 5rem;
+    }
   
 
   footer{
