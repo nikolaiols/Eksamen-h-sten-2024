@@ -301,6 +301,14 @@ body {
       margin-top: 5rem;
     }
   
+    #label-center{
+      text-align: center;
+      gap: 1rem;
+      span{
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
 
   footer{
     grid-area: footer;
