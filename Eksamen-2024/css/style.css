@@ -482,7 +482,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0;
+    gap: 1%;
     input{
       padding: 1rem;
     }
@@ -493,7 +493,7 @@ body {
       flex-direction: column;
     }
     .label-50{
-      width: 50%;
+      width: 49.5%;
     }
     .godta{
       width: 100%;
