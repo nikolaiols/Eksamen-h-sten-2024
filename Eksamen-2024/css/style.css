@@ -494,6 +494,7 @@ body {
   #handlevogn article section{
     display: flex;
     flex-direction: column;
+    gap: 1rem;
   }
   .column-layout{
     display: flex;
