@@ -171,24 +171,30 @@
                     <fieldset>
                         <!-- Brukes til å gruppere relaterte alternativer, her for valg av kjønn -->
                         <legend>Levering</legend> <!-- Tittel for radioknappene -->
-                        
+                        <section>
                         <label>
                             Express Hjemlevering
                             <input type="radio"  name="leveranse" required>
                             <!-- Radioknapp for mann, med name-attributt som grupperer den med de andre kjønn-valgene -->
                         </label>
-                        
+                        <p><i class="fa-solid fa-truck"></i> Rask levering til hjemmeadresse. Levering skjer innen 1-2 virkedager.</p>
+                        </section>
+                        <section>
                         <label>
                             Express Pakke til utleveringssted
                             <input type="radio" name="leveranse" required> 
                             <!-- Radioknapp for kvinne -->
                         </label>
-                        
+                        <p><i class="fa-solid fa-envelopes-bulk"></i> Hent pakken på nærmeste utleveringssted. Levering skjer innen 2-3 virkedager.</p>
+                        </section>
+                        <section>
                         <label>
                             Standar Hjemlevering
                             <input type="radio" name="leveranse" required> 
                             <!-- Radioknapp for annet -->
                         </label>
+                        <p><i class="fa-solid fa-box"></i> Levering til hjemmeadresse med standard leveringstid på 3-5 virkedager.</p>
+                        </section>
                     </fieldset>
                 </form>
             </section>

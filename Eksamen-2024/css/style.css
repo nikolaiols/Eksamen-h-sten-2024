@@ -298,6 +298,13 @@ body {
         flex-direction: column;
       }
     }
+    .column-layout section{
+      border: 1px solid #efefef;
+      p{
+        color: #999797;
+      }
+    }
+
     #personopplysninger .column-layout{
       align-items: center;
     }
@@ -517,8 +524,11 @@ body {
       flex-direction: column;
     }
   }
+  .column-layout section p{
+      margin-left: 3rem;
+  }
   .column-layout fieldset label{
-    border: 1px solid #efefef;
+    /*border: 1px solid #efefef;*/
     flex-direction: row-reverse;
     align-items: baseline;
     justify-content: flex-end;
