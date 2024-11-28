@@ -54,7 +54,7 @@ body {
     width: 100%;
     max-width: 100%;
     padding: 1rem;
-    margin: 10px;
+    margin: 0 auto;
     a{
         padding: 1rem;
         background-color: #fff;
