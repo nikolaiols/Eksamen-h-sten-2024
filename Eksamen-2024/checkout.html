@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- linker til font awsome sine ikoner osv LA IKON MAPPA VÆRE-->
     <link href="ikoner/css/fontawesome.css" rel="stylesheet">
     <link href="ikoner/css/brands.css" rel="stylesheet">
     <link href="ikoner/css/solid.css" rel="stylesheet">
@@ -15,16 +14,16 @@
     <div id="grid-container">
         <header>
             <nav>
-                <form> <!--gjør om label til hidden, så skjermoppleser kan lese det-->
+                <form>
                     <label for="search">Søk</label>
                     <input type="search" placeholder="Søk her" id="search">
                     <input type="submit" value="Søk">
                 </form>
                 <ul>
                     <li><a href="index.html">Hjem</a></li>
-                    <li><a href="index.html#popprodukter">Produkter</a></li> <!--husk å legg id på seksjon med populære produkter-->
-                    <li><a href="index.html"><img class="mainlogo" src="img/logo.png" alt="nettsted logo"></a></li>
-                    <li><a href="index.html#popkategorier">kategorier</a></li> <!--husk å legg id på seksjon med populære kategorier-->
+                    <li><a href="index.html#popprodukter">Produkter</a></li>
+                    <li><a href="index.html"><img class="mainlogo" src="img/logo.png" alt="nettsted logo"></a></li><!--Image by <a href="https://pixabay.com/users/mickeylit-611797/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8249560">Mickey Mikolauskas</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8249560">Pixabay</a>-->
+                    <li><a href="index.html#popkategorier">kategorier</a></li>
                     <li><a href="#contact">kontakt oss</a></li>
                     <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
                     <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
@@ -38,7 +37,7 @@
                 <h3>1. Handlevogn</h3>
 
                 <article>
-                    <img src="img/nike-dunks-1280.jpg" alt="Nike-">
+                    <img src="img/nike-dunks-1280.jpg" alt="Nike-"> <!--Image by <a href="https://pixabay.com/users/marzuk-17536011/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5644799">Mohamed Marzuk Mohamed Ansari</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5644799">Pixabay</a>-->
                 <section>
                     <h3>Nike Dunks</h3>
                     <p>kr 1299</p>
@@ -138,12 +137,10 @@
                     <label class="label-50">
                         Fornavn: 
                         <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Fornavn*"> 
-                        <!-- Tekstfelt for navn, med et mønster som godtar bokstaver og mellomrom (minimum 2 tegn) og som er påkrevd -->
                     </label>
                     <label class="label-50">
                         Etternavn: 
                         <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Etternavn*"> 
-                        <!-- Tekstfelt for navn, med et mønster som godtar bokstaver og mellomrom (minimum 2 tegn) og som er påkrevd -->
                     </label>
                     <label>
                         Gateadresse: 
@@ -168,7 +165,6 @@
                     </label>
                     
                     <input type="submit" class="bigbutton" value="Lagre"> 
-                    <!-- Send-knapp som sender skjemaet når det er korrekt utfylt -->
                     <p><a href="#">Avbryt</a></p>
                 </form>
             </section>
@@ -177,13 +173,11 @@
                 <p>leveringsvalg: </p>
                 <form class="column-layout">
                     <fieldset>
-                        <!-- Brukes til å gruppere relaterte alternativer, her for valg av kjønn -->
-                        <legend>Levering</legend> <!-- Tittel for radioknappene -->
+                        <legend>Levering</legend>
                         <section>
                         <label>
                             Express Hjemlevering
                             <input type="radio"  name="leveranse" required>
-                            <!-- Radioknapp for mann, med name-attributt som grupperer den med de andre kjønn-valgene -->
                         </label>
                         <p><i class="fa-solid fa-truck"></i> Rask levering til hjemmeadresse. Levering skjer innen 1-2 virkedager.</p>
                         </section>
@@ -191,15 +185,13 @@
                         <label>
                             Express Pakke til utleveringssted
                             <input type="radio" name="leveranse" required> 
-                            <!-- Radioknapp for kvinne -->
                         </label>
                         <p><i class="fa-solid fa-envelopes-bulk"></i> Hent pakken på nærmeste utleveringssted. Levering skjer innen 2-3 virkedager.</p>
                         </section>
                         <section>
                         <label>
                             Standar Hjemlevering
-                            <input type="radio" name="leveranse" required> 
-                            <!-- Radioknapp for annet -->
+                            <input type="radio" name="leveranse" required>
                         </label>
                         <p><i class="fa-solid fa-box"></i> Levering til hjemmeadresse med standard leveringstid på 3-5 virkedager.</p>
                         </section>
@@ -226,7 +218,6 @@
                     <label id="label-center">Å betale inkl.mva. <span>3 899kr</span></label>
 
                     <input class="bigbutton" type="submit" value="Fullfør kjøp"> 
-                    <!-- Send-knapp som sender skjemaet når det er korrekt utfylt -->
                      <p>Du bekrefter herved at opplysningene og dokumentene du har
                         oppgitt er korrekte og fullstendige. Leverandøren forbeholder seg
                         retten til å heve eller avslutte avtaleforholdet dersom det foreligger
